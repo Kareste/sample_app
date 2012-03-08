@@ -10,11 +10,11 @@ gem 'sqlite3'
 gem 'json'
 
 group :development do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.6.1'
 end
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '2.6.1'
   gem 'webrat'
 end
 
